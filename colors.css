@@ -1,0 +1,170 @@
+
+:root {
+
+    --background-gradient: linear-gradient(25deg, #141a24 27%, #818386 59%, #141a24 87%) fixed;
+    --background-gradient2: linear-gradient(25deg, #141a24 27%, #818386 59%, #141a24 87%);
+    --background-gradient3: linear-gradient(130deg, #818386 -30%, #141a24 66%);
+    --background-gradient-circle: linear-gradient(0deg, #818386 -70%, #141a24 50%, #818386 160%);
+    --background-title-page: radial-gradient(circle at 75% 43%, rgba(122, 124, 128, 1) 0%, rgba(44, 50, 59, 0.9) 10%, #141a24 40%);
+    --background-title-page1: #141a24;
+    --background-not-gradient: #f7e6dc;
+    --background-container: #34383d;
+    --background-container-trans: #fcfcfc;
+    --modal-background: rgba(250, 247, 245, 0.8);
+  
+    --text-dark: #222222;
+    --text-blue: #2775ca;
+    --text-red: #eb1f1f;
+    --text-not-active-dark: #3e3e3e;
+    --text-yellow: #f4c91e;
+    --text-not-active: #c5c5c5;
+    --text-light: #fcfcfc;
+    --circle: #3e3e3e;
+
+    --inactive-button: #2d2d2d7e;
+    --button-dark: #222222;
+    --button-dark-active: linear-gradient(to bottom, #222222, #575757);
+    --button-active: linear-gradient(to top, #001eff, #1d2ead);
+    --button-light: #fcfcfc;
+    --transparent-button: #ffffff00;
+    --button-gradient: linear-gradient(to top, #f27d26, #f09e60);
+    --line-gradient: linear-gradient(to right, #f09e60, #f27d26);
+    --button-gradient-active: linear-gradient(to bottom, #f27d26, #f09e60);
+    --line: #a8a8a8;
+    --shadow: #1a1a1a;
+    --shadow-light: #fcfcfc;
+    --shadow-circle: #222222;
+    --border-dark: #2b2b2b;
+    --border-orange: #f58127;
+    --border-light: #595959;
+    --border-green: #00c021;
+    --border-yellow: #f4c91e;
+    --border-red: #eb1f1f;
+    --border-dark-not-trans: rgba(43, 43, 43);
+    --icon: #00c021;
+    --icon2: #00b31e;
+    --notification: #f09e60;
+    --text-green: rgba(3, 163, 3);
+    --border1: rgba(255, 204, 2);
+    --border2: rgba(154, 156, 168);
+    --border3: rgba(238, 134, 35);
+    --background-container1: rgba(255, 204, 2, 0.35);
+    --background-container2: rgba(154, 156, 168, 0.35);
+    --background-container3: rgba(238, 134, 35, 0.35);
+
+    --ecosystem-background: #fcf6f0;
+    --ecosystem-container1: rgba(215, 202, 252, 0.5);
+    --ecosystem-container2: rgba(204, 215, 255, 0.5);
+    --ecosystem-container3: rgba(212, 203, 203, 0.5);
+    --ecosystem-container4: rgba(199, 184, 177, 0.5);
+    --ecosystem-container5: rgba(182, 195, 206, 0.5);
+    --ecosystem-container6: rgba(214, 185, 178, 0.5);
+    --ecosystem-container7: rgba(196, 167, 195, 0.5);
+    --ecosystem-container8: rgba(172, 235, 251, 0.5);
+    --ecosystem-container9: rgba(199, 184, 177);
+
+
+    --glass-button-background-gradient: linear-gradient(to bottom, #001eff, #1d2ead);
+    --glass-button-shadow1: #18258c;
+    --glass-button-shadow-inset: rgba(0, 0, 0, 0.6);
+    --glass-effect-up: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4));
+    --glass-effect-down: linear-gradient(to top, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --glass-effect-up-orange: linear-gradient(to bottom, rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0.70));
+    --glass-effect-down-orange: linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0));
+    --glass-button-gradient-orange: linear-gradient(to top, #f1700c, #ffa35c);
+    --glass-button-shadow2: #995400;
+    --container-info: #ebecedc4;
+    --glass-button-background-not-active-gradient: linear-gradient(to bottom, #bfb6b0, #bfb6b0);
+    --glass-button-shadow-not-active: #8c8480;
+    --glass-rating-card1: linear-gradient(to top, #ffd700, #fff099);
+    --glass-rating-card2: linear-gradient(to top, #c0c0c0, #f0f0f0);
+    --glass-rating-card3: linear-gradient(to top, #e58e37, #e5c29e);
+    --glass-card-effect-up: linear-gradient(to bottom, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75));
+    --glass-card-effect-down: linear-gradient(to top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+    --dark-line: #222222;
+    --card-boost: #222222;
+    --fon-boost-info: #f5efeb;
+    --shadow-container-claim-inset: #2b2b2b;
+    --background-container-claim: radial-gradient(circle, #818386 1%, #34383d 60%);
+    --shadow-container-claim: #222222;
+    --card-mission1: radial-gradient(circle at center 43%, #ffffff 5%, #36b6e0 70%);
+    --card-mission2: radial-gradient(circle at center 43%, #ffffff 5%, #7a7979 70%);
+    --card-mission3: radial-gradient(circle at center 43%, #ffffff 5%, #f76e18 70%);
+    --card-mission4: radial-gradient(circle at center 43%, #ffffff 5%, #401c82 70%);
+    --card-mission5: radial-gradient(circle at center 43%, #ffffff 5%, #35a784 70%);
+    --card-mission6: radial-gradient(circle at center 43%, #ffffff 5%, #8a33aa 70%);
+    --card-mission7: radial-gradient(circle at center 43%, #ffffff 5%, #3a6bcf 70%);
+    --card-mission8: radial-gradient(circle at center 43%, #ffffff 5%, #edaf02 70%);
+    --shadow-mission-3: #0d0d0d;
+    --shadow-mission: #22222281;
+    --lamp: #818386;
+    --background-boost-card: radial-gradient(circle at 74% 55%, rgba(122, 124, 128, 1) 0%, rgba(104, 107, 110, 0.7) 25%, rgba(68, 72, 76, 0.8) 45%, #34383d 65%);
+    --background-notification: #565c63;
+
+    
+}
+
+
+.message_block {
+    position: fixed;
+    width: 342px;
+    top: 16px;
+    z-index: 999999;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.copied-message {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    min-height: 40px;
+    background: var(--background-notification);
+    border-radius: 8px;
+    border: 1px solid var(--border-light);
+    box-shadow: 0px 2px 2px var(--shadow);
+    overflow: hidden;
+    margin: 5px 0;
+    position: relative;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.text_block {
+    position: relative;
+    display: flex;
+    width: 306px;
+    align-items: center;
+    overflow-wrap: break-word;
+}
+
+#notification {
+    color: var(--text-light);
+    font-size: 11px;
+    font-weight: 200;
+    padding: 8px 10px;
+}
+
+.close_image_notification {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    padding: 8px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.notification-icon {
+    width: 24px;
+    height: 24px;
+    margin: 8px; /* Отступ для иконки */
+}
+
+.progress-bar-notification {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 0;
+    transition: width 5s linear;
+}
